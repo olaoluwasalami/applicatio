@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url(https://i.imgur.com/iskk8zj.jpg) ;
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {font-weight: bold;
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li { text: bold;
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://scontent.fabv2-1.fna.fbcdn.net/v/t1.0-1/p160x160/10574536_835361456476972_8842132276503370932_n.jpg?_nc_cat=102&_nc_eui2=AeEvTHojxv_040sI3HgM1iZ5w4c0xBCXi1aqX2FImA6HNEpjSOXX47KYBkV-sY2yX87orl68E4kONzrlp1DY7wPQbC1r4IU0NzNxd8Z3xogOdBH-MyvCi7taiykLDTtnf1k&_nc_ht=scontent.fabv2-1.fna&oh=9eceb841aa1827750fe85468ea913c10&oe=5CEEEAB0">
+    <h1>Salami Olaoluwa Ademola</h1>
+    <ul>
+      <li><a href="#">My Description</a></li>
+      <li><a href="#"> Contacts</a></li>
+      <li><a href="#">My portfolio</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>who will win the 2019 election?</h2>
+    <p>Nigeria will go to polls next month to pick a new president. Currently, President Muhammadu Buhari and former vice president Atiku Abubakar are the frontrunners in the 2019 race for the presidency. Atiku is a familiar foe for the ruling All Progressives Congress having been a member until last December when he decamped and returned to Peoples Democratic Party. It is Atiku's fourth run for the presidency after failed attempts in 2007, 2011 and 2015.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Africa: Leaked Letter Alleges Cronyism by African Union Boss - Report</h2>
+    <p>In an exclusive report, writer Simon Allison says that Thomas Kwesi-Quartey has sent a letter to Ghanaian President Nana Akufo-Addo, "revealing deep divisions within the senior leadership of the AU and shedding more light on previous reports of nepotism and sexual harassment".</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Lupita Takes Her Face Off in New Poster for Horror Film</h2>
+    <p>Lupita Nyong'o stars in a film, Us, that follows a family of four looking to enjoy summer with friends at their beach house. But their vacation turns into a nightmare when another family of four - that looks exactly like them - attacks them. Scared already?  
+</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
